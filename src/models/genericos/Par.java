@@ -10,7 +10,7 @@ public class Par<K, V> {
         this.valor = valor;
     }
 
-    // Métodos para establecer y obtener la clave y el valor
+
     public void establecerClave(K clave) {
         this.clave = clave;
     }
@@ -26,8 +26,6 @@ public class Par<K, V> {
     public V obtenerValor() {
         return valor;
     }
-
-    // Sobrescribir el método toString() para una mejor representación
     @Override
     public String toString() {
         return "Clave: " + clave + ", Valor: " + valor;
